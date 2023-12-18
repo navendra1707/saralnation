@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="320px" viewBox="0 0 320 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+    <title>Icon/Product/Retail</title>
+    <g id="Icon/Product/Retail" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="none" x="0" y="0" width="320" height="320"></rect>
+        <g id="in-with-the-old" transform="translate(35.000000, 45.000000)">
+            <path d="M36,-10 C43.7318475,-10 50,-3.7318475 50,4 L50,150 L240,150 C245.42924,150 249.847932,154.326671 249.996158,159.720095 L250,160 C250,165.522847 245.522847,170 240,170 L44,170 C36.2681525,170 30,163.731847 30,156 L30,10 L0,10 C-5.42923991,10 -9.84793172,5.67332921 -9.9961582,0.279904844 L-10,0 C-10,-5.5228475 -5.5228475,-10 0,-10 L36,-10 Z" id="Stroke-1" fill="#04246E" fill-rule="nonzero"></path>
+            <polyline id="Fill-3" fill="#D9214F" style="mix-blend-mode: multiply;" opacity="0.25" points="50 40 250 40 250 90 230 130 50 130"></polyline>
+            <polygon id="Fill-5" fill="#00A9FF" style="mix-blend-mode: multiply;" points="190 20.0003 90 20.0003 90 130.0003 190 130.0003"></polygon>
+            <path d="M90,210 C90,221.046 81.046,230 70,230 C58.954,230 50,221.046 50,210 C50,198.954 58.954,190 70,190 C81.046,190 90,198.954 90,210" id="Fill-9" fill="#D9214F" style="mix-blend-mode: multiply;" opacity="0.25"></path>
+            <path d="M210,210 C210,221.046 201.046,230 190,230 C178.954,230 170,221.046 170,210 C170,198.954 178.954,190 190,190 C201.046,190 210,198.954 210,210" id="Fill-13" fill="#D9214F" style="mix-blend-mode: multiply;" opacity="0.25"></path>
+            <path d="M110,210 C110,221.046 101.046,230 90,230 C78.954,230 70,221.046 70,210 C70,198.954 78.954,190 90,190 C101.046,190 110,198.954 110,210" id="Fill-7" fill="#00A9FF" style="mix-blend-mode: multiply;"></path>
+            <path d="M230,210 C230,221.046 221.046,230 210,230 C198.954,230 190,221.046 190,210 C190,198.954 198.954,190 210,190 C221.046,190 230,198.954 230,210" id="Fill-11" fill="#00A9FF" style="mix-blend-mode: multiply;"></path>
+            <polygon id="Fill-15" fill="#0046F0" style="mix-blend-mode: multiply;" points="189.9985 80.0011 89.9985 80.0011 89.9985 130.0011 189.9985 130.0011"></polygon>
+        </g>
+    </g>
+</svg>
