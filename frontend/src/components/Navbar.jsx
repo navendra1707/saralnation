@@ -1,16 +1,12 @@
-import { Box, Stack, useMediaQuery, Button } from "@mui/material";
+import { Box, Stack, Button } from "@mui/material";
 import React from "react";
 
-import PhoneIcon from "@mui/icons-material/Phone";
-import EmailIcon from "@mui/icons-material/Email";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
 import WestIcon from "@mui/icons-material/West";
 
 import Heading from "../styled/Heading";
 import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
-  const isMobile = useMediaQuery("(max-width: 1000px)");
   const navigate = useNavigate();
 
   return (
@@ -29,6 +25,9 @@ const Navbar = () => {
           justifyContent="space-between"
           alignItems="center"
           flexWrap={"wrap"}
+          sx={{
+            width: '90vw'
+          }}
         >
           <Button
             onClick={() => {
@@ -37,58 +36,14 @@ const Navbar = () => {
           >
             <WestIcon sx={{ color: "#fff" }} />
           </Button>
-          <Stack
-            direction="row"
-            justifyContent="space-between"
-            alignItems="center"
-            sx={{
-              width: "90vw",
-              padding: isMobile ? "1rem" : 0,
+          <Heading
+            sx={{ cursor: "pointer", color: '#fff', fontSize: '1.2rem' }}
+            onClick={() => {
+              navigate("/");
             }}
-            flexWrap={"wrap"}
           >
-            <Stack
-              direction="row"
-              justifyContent={"center"}
-              alignItems="center"
-              gap={1}
-            >
-              <PhoneIcon sx={{ color: "#fff" }} />
-              <Heading style={{ color: "#fff" }}>
-                <a href="tel:+918817225566">+91-8817225566</a>
-              </Heading>
-            </Stack>
-            <Stack
-              direction="row"
-              justifyContent={"center"}
-              alignItems="center"
-              gap={1}
-            >
-              <EmailIcon sx={{ color: "#fff" }} />
-              <Heading style={{ color: "#fff" }}>
-                <a href="mailto:thebraintrain.jbp@gmail.com">
-                  thebraintrain.jbp@gmail.com
-                </a>
-              </Heading>
-            </Stack>
-            <Stack
-              direction="row"
-              justifyContent={"center"}
-              alignItems="center"
-              gap={1}
-            >
-              <LocationOnIcon sx={{ color: "#fff" }} />
-              <Heading style={{ color: "#fff" }}>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://maps.app.goo.gl/AH7QCdSP6ej3N7778"
-                >
-                  Madan Mahal
-                </a>
-              </Heading>
-            </Stack>
-          </Stack>
+            Saral Nation
+          </Heading>
         </Stack>
       </Box>
     </div>
