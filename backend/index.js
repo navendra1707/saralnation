@@ -26,6 +26,12 @@ app.use(userRoutes)
 app.use(contestRoutes)
 app.use(productRoutes);
 
+const performTask = () => {
+  console.log('Task executed at:', new Date());
+}
+
+setInterval(performTask, 10*60*1000);
+
 app.get("/", (req, res) => {
   res.sendStatus(200);
 });
