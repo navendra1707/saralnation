@@ -12,7 +12,7 @@ const PageCard = ({ name, image, route }) => {
       elevation={2}
       sx={{
         minWidth: {
-          xs: "60vw",
+          xs: "75vw",
           md: "20vw",
         },
         minHeight: {

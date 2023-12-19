@@ -2,18 +2,21 @@ import {
   Card,
   Stack,
   Typography,
+  useMediaQuery
 } from "@mui/material";
 import React, { useState } from "react";
 import SubHeading from "../styled/SubHeading";
 
 const ProductItem = ({ title, link, image }) => {
+  const isMobile = useMediaQuery('(max-width: 900px)');
 
   return (
     <Card
       sx={{
-        width: "20rem",
-        minHeight: "23rem",
+        width: isMobile ? "85vw" : '20vw',
+        minHeight: "35vh",
         borderRadius: "0.5rem",
+        padding: '0.5rem'
       }}
       elevation={2}
     >
@@ -23,8 +26,8 @@ const ProductItem = ({ title, link, image }) => {
             src={image}
             alt='product'
             style={{
-              width: "20rem",
-              height: "15rem",
+              width: isMobile ? "85vw" : '20vw',
+              height: "25vh",
               objectFit: "contain",
               objectPosition: "center",
               overflow: "hidden",
